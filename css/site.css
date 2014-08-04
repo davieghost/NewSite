@@ -1,0 +1,28 @@
+/*@import '_htmlReset.scss';*/
+#wrapper {
+  font-family: 'Lato', sans-serif;
+  color: #e5f4fa; }
+  #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6, #wrapper em {
+    font-weight: 400; }
+  #wrapper a {
+    color: #19b3f7;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-size: 21px; }
+  #wrapper .content_section {
+    min-height: 568.926px;
+    max-width: 960px; }
+    #wrapper .content_section a {
+      display: block; }
+  #wrapper .intro {
+    background: #0f1111; }
+  #wrapper .profile {
+    background: #272c2c; }
+  #wrapper .work {
+    background: #3f4747; }
+  #wrapper .connect {
+    background: #576262; }
+  #wrapper .blog {
+    background: #3f4747; }
+  #wrapper .okbye {
+    background: #272c2c; }

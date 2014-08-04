@@ -1,0 +1,44 @@
+/*@import '_htmlReset.scss';*/
+
+$bg_color01: #0f1111;
+$text_color: #e5f4fa;
+$link_color: #19b3f7;
+
+#wrapper {
+	font-family: 'Lato', sans-serif;
+	color: $text_color;
+	h1, h2, h3, h4, h5, h6, em {
+			font-weight: 400;
+		}
+	a {
+		color: $link_color;
+		text-decoration: none;
+		border-bottom: 1px solid;
+		font-size: 21px;
+	}
+	.content_section {
+		min-height: 568.926px;
+		max-width: 960px;
+		a {
+			display: block;
+		}
+	}
+	.intro{
+		background: $bg_color01;
+	}
+	.profile {
+		background: lighten($bg_color01, 10%);
+	}
+	.work {
+		background: lighten($bg_color01, 20%);
+	}
+	.connect {
+		background: lighten($bg_color01, 30%);
+	}
+	.blog {
+		background: lighten($bg_color01, 20%);
+	}
+	.okbye {
+		background: lighten($bg_color01, 10%);
+	}
+}
