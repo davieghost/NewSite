@@ -6,11 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font/typicons.css">
 	<link rel="stylesheet" href="css/site.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 <body>
 	<div id="wrapper">
-		<header class="content_section intro">
+		<header class="content_section intro" id="one">
 			<div class="aligner">
 				<img src="image/profile.png" alt="Me!" class="profile-image">
 				<hgroup>
@@ -21,16 +25,28 @@
 				<p>Experienced in gridsystems &amp; frameworks&#46; I make websites with Clean &amp; Semantic code&#46; I believe in a method of working that is deliberate and meticulous&#46; I am as such a firm believer in Pixel Perfection &amp; Best Practice&#46;</p>
 				<p><em>All this while being a really nice guy&#46;</em></p>
 			</div>
+			<div class="circle" id="circle1">
+				<a href="#two"><span class="typcn typcn-arrow-down white"></span></a>
+			</div>
+			<!-- <div class="circle" id="circle2">
+				<a href="#"><span class="typcn typcn-arrow-up white"></span></a>
+			</div> -->
 		</header>
-		<section class="content_section profile">
+		<section class="content_section profile" id="two">
 			<div class="aligner">
 				<h2><em>I’ve been geeking out on building the internet since my voice was cracking.</em></h2>
 				<p>I got a degree in graphic design and spent some time as a designer before enlisting in the army. I've also been a bike messenger, a pedicab driver and a tile mason. I’m a proud father of three. I have a diverse background, and I bring a unique perspective to my programing. </p>
 				<p>I approach my development in the way that I would approach building anything, I take my time, measure twice and cut once. </p>
 				<p>After all, I wouldn’t want you to fall out of a chair that I built because of an oversight on my part, and I don’t want you to leave my site because of a failure.</p>
 			</div>
+			<div class="circle" id="circle1">
+				<a href="#three"><span class="typcn typcn-arrow-down white"></span></a>
+			</div>
+			<div class="circle" id="circle2">
+				<a href="#one"><span class="typcn typcn-arrow-up white"></span></a>
+			</div>
 		</section>
-		<section class="content_section work">
+		<section class="content_section work" id="three">
 			<div class="aligner">
 				<h2>Sites I&#39;ve made&#46;</h2>
 				<a href="http://mlogan.us" target="_blank"><span>MLogan&#46;us</span></a>
@@ -39,8 +55,14 @@
 				<a href="http://lindseydanceson.com" target="_blank"><span>LindseyDancesOn&#46;com</span></a>
 				<h3><em>This site as well&#44; of course&#46;</em></h3>
 			</div>
+			<div class="circle" id="circle1">
+				<a href="#four"><span class="typcn typcn-arrow-down white"></span></a>
+			</div>
+			<div class="circle" id="circle2">
+				<a href="#two"><span class="typcn typcn-arrow-up white"></span></a>
+			</div>
 		</section>
-		<section class="content_section connect">
+		<section class="content_section connect" id="four">
 			<div class="aligner">
 				<h2>Here are ways to connect with me&#46;</h2>
 				<a href="mailto:davidjohnson1297@gmail.com" target="_blank"><span>ElectronicMail</span></a>
@@ -49,8 +71,14 @@
 				<a href="http://twitter.com/daviedavieghost" target="_blank"><span>Twitter</span></a>
 				<h3>If you need something more intimate&#44; just ask&#46;</h3>
 			</div>
+			<div class="circle" id="circle1">
+				<a href="#five"><span class="typcn typcn-arrow-down white"></span></a>
+			</div>
+			<div class="circle" id="circle2">
+				<a href="#three"><span class="typcn typcn-arrow-up white"></span></a>
+			</div>
 		</section>
-		<section class="content_section blog">
+		<section class="content_section blog" id="five">
 			<div class="aligner">
 				<h1>This is a blog entry</h1>
 				<h4>by <span>David Johnson</span> on <span>12&#45;20&#45;2012</span></h4>
@@ -64,8 +92,14 @@ function code(){
 </pre>
 				<blockquote>"This is how a blockquote would look&#46;"</blockquote>
 			</div>
+			<div class="circle" id="circle1">
+				<a href="#six"><span class="typcn typcn-arrow-down white"></span></a>
+			</div>
+			<div class="circle" id="circle2">
+				<a href="#four"><span class="typcn typcn-arrow-up white"></span></a>
+			</div>
 		</section>
-		<section class="content_section okbye">
+		<section class="content_section okbye" id="six">
 			<div class="aligner">
 				<h2>It was nice to meet you&#46;</h2>
 				<div class="image_container">
@@ -75,7 +109,14 @@ function code(){
 					<img src="image/mail.png" alt="email">
 				</div>
 			</div>
+			<!-- <div class="circle" id="circle1">
+				<a href="#two"><span class="typcn typcn-arrow-down white"></span></a>
+			</div> -->
+			<div class="circle" id="circle2">
+				<a href="#five"><span class="typcn typcn-arrow-up white"></span></a>
+			</div>
 		</section>
 	</div>
+	
 </body>
 </html>

@@ -1,0 +1,11 @@
+.circle {
+  height: 50px;
+  width: 50px;
+  background: #333;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block; }
+
+.white {
+  color: #fff;
+  font-size: 38px; }
