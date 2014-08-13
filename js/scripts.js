@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$('body').css('opacity','0');
-	$('body').css('margin-top','-15px');
-	console.log('man, get out ron');
+	$('#wrapper').css('opacity','0');
+	$('#wrapper').css('margin-top','-15px');
+	/*console.log('man, get out ron');*/
 
 	var link = 'a[href^=#]';
 
@@ -19,9 +19,11 @@ $(document).ready(function(){
 
 	});
 
+	
+
 });
 $(window).load(function(){
-	$('body').animate({
+	$('#wrapper').animate({
 		opacity:'1',
 		marginTop:'0'
 		},{
