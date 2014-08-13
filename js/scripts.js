@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$('#wrapper').css('opacity','0');
 	$('#wrapper').css('margin-top','-15px');
-	/*console.log('man, get out ron');*/
 
 	var link = 'a[href^=#]';
 
@@ -19,9 +18,8 @@ $(document).ready(function(){
 
 	});
 
-	
-
 });
+
 $(window).load(function(){
 	$('#wrapper').animate({
 		opacity:'1',
@@ -32,4 +30,3 @@ $(window).load(function(){
 		duration: 800
 		});
 });
-
