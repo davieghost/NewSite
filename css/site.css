@@ -83,6 +83,15 @@ body, html {
   body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
     font-weight: 300; }
 
+p {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0 0 15px 0; }
+  @media screen and (min-width: 700px) {
+    p {
+      font-size: 18px;
+      line-height: 20px; } }
+
 .intro {
   background: #0f1111; }
 
@@ -111,10 +120,10 @@ body, html {
   position: relative; }
 
 .circleR {
-  float: right; }
+  float: left; }
 
 .circleL {
-  float: left; }
+  float: right; }
 
 .white {
   color: #19b3f7;
@@ -130,25 +139,51 @@ body, html {
     height: 90px;
     width: 90px;
     margin: 5px 0 20px 0; }
+    @media screen and (min-width: 700px) {
+      #wrapper .profile-image {
+        height: 171px;
+        width: 171px;
+        float: left;
+        margin: 4% 30px 0 10%; } }
+    @media screen and (min-width: 950px) {
+      #wrapper .profile-image {
+        margin-left: 20%; } }
+    @media screen and (min-width: 1300px) {
+      #wrapper .profile-image {
+        margin-left: 20%; } }
   #wrapper header h1 {
     font-size: 32px;
     margin: 0 0 5px 0; }
+    @media screen and (min-width: 700px) {
+      #wrapper header h1 {
+        font-size: 36px;
+        margin-bottom: 10px; } }
   #wrapper header h2 {
     font-size: 24px;
     margin: 0 0 20px 0; }
+    @media screen and (min-width: 700px) {
+      #wrapper header h2 {
+        font-size: 26px; } }
   #wrapper header h3 {
     font-size: 18px;
     margin: 0 0 23px 0; }
-  #wrapper header p {
-    font-size: 16px;
-    margin: 0 0 20px 0; }
-  #wrapper .profile h2 em {
+    @media screen and (min-width: 700px) {
+      #wrapper header h3 {
+        font-size: 24px;
+        line-height: 22px; } }
+  @media screen and (min-width: 700px) {
+    #wrapper .profile .aligner2, #wrapper .work .aligner2, #wrapper .connect .aligner2, #wrapper .blog .aligner2, #wrapper .okbye .aligner2 {
+      width: 40%;
+      max-width: 400px;
+      margin: 95px auto;
+      float: none; } }
+  #wrapper .profile h2 em, #wrapper .work h2 em, #wrapper .connect h2 em, #wrapper .blog h2 em, #wrapper .okbye h2 em {
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
-    margin: 20px 0 24px 0;
+    margin: 15px 0 20px 0;
     display: block; }
-  #wrapper .profile p {
+  #wrapper .profile p, #wrapper .work p, #wrapper .connect p, #wrapper .blog p, #wrapper .okbye p {
     margin: 0 0 18px 0; }
   #wrapper .work h2, #wrapper .connect h2 {
     font-size: 24px;
@@ -169,7 +204,7 @@ body, html {
     padding: 0 0 5% 0;
     min-height: 570.015px;
     height: 100%;
-    border: 1px solid red; }
+    border: 1px solid rgba(51, 51, 51, 0); }
   #wrapper .regLinks {
     color: #19b3f7;
     text-decoration: none;
@@ -178,15 +213,24 @@ body, html {
     #wrapper .regLinks span {
       border-bottom: 1px solid #19b3f7; }
   #wrapper .aligner {
-    border: 1px dotted #00ffff;
+    border: 1px solid rgba(51, 51, 51, 0);
     margin: 0 auto;
     max-width: 90%;
     height: 71%; }
+    @media screen and (min-width: 700px) {
+      #wrapper .aligner {
+        height: 85%; } }
+  @media screen and (min-width: 700px) {
+    #wrapper .aligner2 {
+      width: 40%;
+      max-width: 400px;
+      margin: 95px auto;
+      float: left; } }
   #wrapper .buttonContainer {
     height: 10%;
     width: 90%;
     margin: 0 auto;
-    border: 1px dashed #fff; }
+    border: 1px solid rgba(51, 51, 51, 0); }
   #wrapper .image_container {
     width: 202px;
     padding: 12px;
