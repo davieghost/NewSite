@@ -13,6 +13,71 @@ body, html {
 		font-weight: 300;
 	}
 }
+.main-navigation {
+	right: 0;
+	position: fixed;
+	z-index: 10;
+}
+.nav-menu {
+	height: 100px;
+	float: right;
+	top: 300px;
+	right: 20px;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	z-index: 999;
+}
+.menu-item-type-custom /*circle*/ {
+	display: block;
+	margin-bottom: 13px;
+	height:13px;
+	width:13px;
+	/*background-color:none;*/
+	border-radius:13px;
+	border: solid 1px #5A5A5A;
+	text-decoration: none;
+}
+
+.link /*circle link*/{
+	display: block;
+	margin-bottom: 13px;
+	height:13px;
+	width:13px;
+	background-color:transparent;
+	border-radius:13px;
+	border: none; 
+	text-decoration: none;
+	opacity: 0;
+}
+.current{
+	display: block;
+ 	height:13px;
+ 	width:13px;
+ 	background-color:#5A5A5A;
+ 	border-radius:13px;
+ 	border: solid 1px #5A5A5A;
+ 	text-decoration: none;
+}
+.alignnone:hover {
+	opacity: 1;
+}
+
+.alignnone {
+	opacity: 0.5;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+	max-width: 868px;
+	clear: both; 
+	display: block; 
+	margin-left: -100px; 
+	margin-right: auto;
+	    transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+}
 p {
 			font-size: 16px;
 			line-height: 18px;
@@ -187,6 +252,7 @@ p {
 		width: 90%;
 		margin: 0 auto;
 		border: 1px solid rgba(#333, 0);
+		position: fixed;
 	}
 	.image_container {
 		width: 202px;
