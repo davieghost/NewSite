@@ -212,6 +212,9 @@ html, body {
         list-style: none; }
         html #wrapper #two .content ul li, body #wrapper #two .content ul li {
           line-height: 75px; }
+          @media only screen and (max-width: 30em) {
+            html #wrapper #two .content ul li, body #wrapper #two .content ul li {
+              line-height: 55px; } }
           html #wrapper #two .content ul li a, body #wrapper #two .content ul li a {
             text-decoration: none;
             font-size: 40px;
@@ -219,7 +222,7 @@ html, body {
             color: #93d8d8; }
             @media only screen and (max-width: 30em) {
               html #wrapper #two .content ul li a, body #wrapper #two .content ul li a {
-                font-size: 30px; } }
+                font-size: 24px; } }
             html #wrapper #two .content ul li a span, body #wrapper #two .content ul li a span {
               background: #e5f4fa;
               padding: 3px; }
@@ -228,7 +231,7 @@ html, body {
               color: #e5f4fa; }
       @media only screen and (max-width: 30em) {
         html #wrapper #two .content, body #wrapper #two .content {
-          margin: 30px auto 0px 60px; } }
+          margin: 30px auto 0px 45px; } }
     @media only screen and (max-width: 748px) {
       html #wrapper #two, body #wrapper #two {
         height: 100%;
@@ -289,7 +292,8 @@ html, body {
           color: #96a2a2; }
       @media only screen and (max-width: 30em) {
         html #wrapper #three .content, body #wrapper #three .content {
-          margin-left: 50px; } }
+          margin-left: 45px;
+          width: 80%; } }
     html #wrapper #three .content2, body #wrapper #three .content2 {
       width: 239px;
       float: right;
@@ -319,7 +323,7 @@ html, body {
           margin-top: 40px; } }
       @media only screen and (max-width: 30em) {
         html #wrapper #three .content2, body #wrapper #three .content2 {
-          margin-left: 50px; } }
+          margin-left: 45px; } }
     @media only screen and (max-width: 748px) {
       html #wrapper #three, body #wrapper #three {
         height: 1040px;
@@ -328,7 +332,7 @@ html, body {
         top: 1300px; } }
     @media only screen and (max-width: 30em) {
       html #wrapper #three, body #wrapper #three {
-        height: 1080px;
+        height: 1180px;
         width: 100%;
         left: 0;
         top: 960px; } }

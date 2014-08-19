@@ -204,6 +204,10 @@ html, body {
 							li {
 								line-height: 75px;
 
+								@include bp-small {
+									line-height: 55px;
+								}
+
 								a {
 									text-decoration: none;
 									font-size: 40px;
@@ -211,7 +215,7 @@ html, body {
 									color: $bgcolorTwo;
 
 									@include bp-small {
-										font-size: 30px;
+										font-size: 24px;
 									}
 
 									span {
@@ -226,7 +230,7 @@ html, body {
 							}
 						}
 						@include bp-small {
-							margin: 30px auto 0px 60px;
+							margin: 30px auto 0px 45px;
 						}
 					}
 					@include bp-medium {
@@ -303,7 +307,8 @@ html, body {
 						}
 
 						@include bp-small {
-							margin-left: 50px;
+							margin-left: 45px;
+							width: 80%;
 						}
 					}
 					.content2 {
@@ -343,7 +348,7 @@ html, body {
 							margin-top: 40px;
 						}
 						@include bp-small {
-							margin-left: 50px;
+							margin-left: 45px;
 						}
 
 					}
@@ -355,7 +360,7 @@ html, body {
 						top: 1300px;
 					}
 					@include bp-small {
-						height: 1080px;
+						height: 1180px;
 						width: 100%;
 						left: 0;
 						top: 960px;
