@@ -149,9 +149,9 @@ html, body {
           margin-top: 15px;
           margin-left: 20px;
           margin-right: 20px; } }
-      @media only screen and (max-width: 30em) {
+      @media only screen and (max-width: 748px) {
         html #wrapper #one .textContainer, body #wrapper #one .textContainer {
-          margin-top: 15px; } }
+          margin-top: 45px; } }
       html #wrapper #one .textContainer h1, body #wrapper #one .textContainer h1 {
         font-size: 40px;
         font-weight: normal;
@@ -229,6 +229,9 @@ html, body {
             html #wrapper #two .content ul li a span:hover, body #wrapper #two .content ul li a span:hover {
               background: #93d8d8;
               color: #e5f4fa; }
+      @media only screen and (max-width: 748px) {
+        html #wrapper #two .content, body #wrapper #two .content {
+          margin: 60px auto 0px 45px; } }
       @media only screen and (max-width: 30em) {
         html #wrapper #two .content, body #wrapper #two .content {
           margin: 30px auto 0px 45px; } }
@@ -277,7 +280,12 @@ html, body {
         float: right; }
         @media only screen and (max-width: 748px) {
           html #wrapper #three .top #eggs, body #wrapper #three .top #eggs {
-            margin-right: 320px; } }
+            float: left;
+            margin-left: -5px; } }
+        @media only screen and (max-width: 30em) {
+          html #wrapper #three .top #eggs, body #wrapper #three .top #eggs {
+            float: left;
+            margin-left: -5px; } }
     html #wrapper #three .content, body #wrapper #three .content {
       width: 317px;
       color: #0f1111;
