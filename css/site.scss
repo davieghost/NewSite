@@ -16,7 +16,7 @@ $thatPaleYellow: rgb(211,239,168);
 }
 
 @mixin bp-medium {
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 748px) {
     @content;
   }
 }
@@ -36,6 +36,9 @@ html, body {
 	color: $colorP;
 	font-family: 'lato', sans-serif;
 	overflow: hidden;
+	
+
+
 	::selection {
 	  background: transparent;
 	  color: #00ffff;
@@ -44,15 +47,10 @@ html, body {
 	  background: transparent; 
 	  color: #00ffff;
 	}
-		@media (orientation: landscape) {
-			
-		}
-		@include bp-small {
-			
-		}
-		@include bp-medium {
-			
-		}
+	
+	@include bp-medium {
+		overflow: scroll;
+	}
 
 		#wrapper {
 			#one {
@@ -64,8 +62,9 @@ html, body {
 					margin: 20px auto 0px auto;
 				}
 				@include bp-medium {
-						margin: 20px auto 0px auto
+						margin: 20px auto 0px auto;
 					}
+				
 
 				img {
 					float: left;
@@ -126,7 +125,7 @@ html, body {
 						margin-left: 20px;
 						margin-right: 20px;
 					}
-					@include bp-medium {
+					@include bp-small {
 						margin-top: 15px;
 					}
 
@@ -176,6 +175,14 @@ html, body {
 					}
 			}
 			#two {
+				@include bp-medium {
+					.disable {
+						height: 100%;
+						width:100%;
+						background: rgba(0, 0, 0, 0);
+					}
+					cursor: default;
+				}
 					background: $bgcolorTwo;
 					height:100%;
 					width: 725px;
@@ -203,6 +210,10 @@ html, body {
 									font-weight: bold;
 									color: $bgcolorTwo;
 
+									@include bp-small {
+										font-size: 30px;
+									}
+
 									span {
 										background: $colorP;
 										padding: 3px;
@@ -214,9 +225,34 @@ html, body {
 								}
 							}
 						}
+						@include bp-small {
+							margin: 30px auto 0px 60px;
+						}
+					}
+					@include bp-medium {
+						height: 100%;
+						width: 100%;
+						right: 0;
+						top: 700px;
+
+					}
+					@include bp-small {
+						height: 100%;
+						width: 100%;
+						right: 0;
+						top: 500px;
+
 					}
 				}
 			#three {
+				@include bp-medium {
+					.disable {
+						height: 100%;
+						width:100%;
+						background: rgba(0, 0, 0, 0);
+					}
+					cursor: default;
+				}
 					background: $bgcolorThree;
 					height:100%;
 					width: 675px;
@@ -239,6 +275,10 @@ html, body {
 							margin-right: 210px;
 							margin-top: 70px;
 							float: right;
+
+							@include bp-medium {
+								margin-right: 320px;
+							}
 						}
 					}
 					.content {
@@ -256,6 +296,10 @@ html, body {
 								text-decoration: none;
 								color: lighten($bgcolorOne, 55%);
 							}
+						}
+
+						@include bp-small {
+							margin-left: 50px;
 						}
 					}
 					.content2 {
@@ -289,6 +333,28 @@ html, body {
 							}
 						}
 
+						@include bp-medium {
+							float: left;
+							margin-left: 95px;
+							margin-top: 40px;
+						}
+						@include bp-small {
+							margin-left: 50px;
+						}
+
+					}
+
+					@include bp-medium {
+						height: 144%;
+						width: 100%;
+						right: 0;
+						top: 1300px;
+					}
+					@include bp-small {
+						height: 184%;
+						width: 100%;
+						left: 0;
+						top: 960px;
 					}
 			}
 			.title {
@@ -301,6 +367,10 @@ html, body {
 						font-size: 22px;
 						font-weight: light;
 						cursor: pointer;
+
+						@include bp-medium {
+							cursor: default;
+						}
 					}
 		}
 }
