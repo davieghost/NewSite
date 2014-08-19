@@ -146,9 +146,7 @@ html, body {
         margin-top: 98px;
         margin-left: 35px;
         margin-right: 35px;
-        text-align: left;
-        position: relative;
-        z-index: 3; }
+        text-align: left; }
         @media only screen and (max-width: 30em) {
           html #wrapper #one .textContainer, body #wrapper #one .textContainer {
             margin-top: 15px;
@@ -200,8 +198,7 @@ html, body {
       right: -625px;
       top: 0px;
       position: absolute;
-      z-index: 1;
-      cursor: pointer; }
+      z-index: 1; }
       @media only screen and (max-width: 748px) {
         html #wrapper #two, body #wrapper #two {
           cursor: default; }
@@ -262,8 +259,7 @@ html, body {
       right: -625px;
       top: 0px;
       position: absolute;
-      z-index: 2;
-      cursor: pointer; }
+      z-index: 2; }
       @media only screen and (max-width: 748px) {
         html #wrapper #three, body #wrapper #three {
           cursor: default; }
@@ -368,3 +364,25 @@ html, body {
 
 .hide {
   opacity: 0; }
+
+.enable2 {
+  background: rgba(34, 34, 34, 0);
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer; }
+
+.enable1 {
+  background: rgba(25, 25, 25, 0);
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer; }

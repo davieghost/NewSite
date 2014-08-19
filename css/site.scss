@@ -121,8 +121,6 @@ html, body {
 					margin-left: 35px;
 					margin-right: 35px;
 					text-align: left;
-					position: relative;
-					z-index: 3;
 					
 
 					@include bp-small {
@@ -181,6 +179,7 @@ html, body {
 			}
 			#two {
 				float: left;
+				
 				@include bp-medium {
 					.disable {
 						height: 100%;
@@ -196,7 +195,6 @@ html, body {
 					top:0px;
 					position:absolute;
 					z-index: 1;
-					cursor: pointer;
 
 					.title {
 						margin-left: -17px;
@@ -260,6 +258,7 @@ html, body {
 					}
 				}
 			#three {
+				
 				@include bp-medium {
 					.disable {
 						height: 100%;
@@ -275,8 +274,7 @@ html, body {
 					top:0px;
 					position:absolute;
 					z-index: 2;
-					cursor: pointer;
-
+					
 					.title {
 						margin-left: -8px;
 					}
@@ -404,3 +402,25 @@ html, body {
 							.hide {
 								opacity: 0;
 							}
+							.enable2 {
+					background: rgba(34,34,34, 0);
+					width: 10%;
+					height: 100%;
+					position: absolute;
+					height:100%;
+					top:0px;
+					position:absolute;
+					z-index: 2;
+					cursor: pointer;
+				}
+				.enable1 {
+					background: rgba(25,25,25, 0);
+					width: 10%;
+					height: 100%;
+					position: absolute;
+					height:100%;
+					top:0px;
+					position:absolute;
+					z-index: 2;
+					cursor: pointer;
+				}
