@@ -1,10 +1,5 @@
 $(document).ready(function(){
 
-	//$('#wrapper').css('opacity','0');
-	//$('#wrapper').css('margin-top','-15px');
-
-	
-
 	var $moveOne = $('#three'),
         $moveTwo = $('#two');
 
@@ -32,46 +27,3 @@ $(document).ready(function(){
 	        $moveTwo.stop().animate({right: r+'px'}, 400);
 
 	    });
-	
-
-/*	var link = 'a[href^=#]';
-
-	$(link).click(function(e){
-      e.preventDefault();
-
-      var target = this.hash,
-      $target = $(target);
-
-      $('html, body').animate({
-      		'scrollTop': $target.offset().top
-      }, 1000, 'easeInQuart', function(){
-      	window.location.hash = target;
-      });
-
-	});
-*/
-
-$(window).resize(function(){
-		if ($(window).width() <= 748){	
-			// do something here
-			//$moveOne.css('right','0');
-			//$moveTwo.css('right','0');
-			
-			
-		}	
-	});
-
-});
-
-/*$(window).load(function(){
-	$('#wrapper').animate({
-		opacity:'1',
-		marginTop:'0'
-		},{
-		delay: 6000,
-		specialEasing: 'easeInOutSine',
-		duration: 800
-		});
-});*/
-
-
