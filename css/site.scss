@@ -269,6 +269,10 @@ html, body {
 						width: 100%;
 						height: 250px;
 						margin-left: 60px;
+
+						@include bp-medium {
+							margin-left: 0px;
+						}
 						#eggs {
 							height:160px;
 							width: 90px;
@@ -345,13 +349,13 @@ html, body {
 					}
 
 					@include bp-medium {
-						height: 144%;
+						height: 1040px;
 						width: 100%;
 						right: 0;
 						top: 1300px;
 					}
 					@include bp-small {
-						height: 184%;
+						height: 1080px;
 						width: 100%;
 						left: 0;
 						top: 960px;

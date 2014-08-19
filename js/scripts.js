@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	$('#wrapper').css('opacity','0');
-	$('#wrapper').css('margin-top','-15px');
+	//$('#wrapper').css('opacity','0');
+	//$('#wrapper').css('margin-top','-15px');
 
 	
 

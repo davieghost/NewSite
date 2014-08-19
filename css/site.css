@@ -263,6 +263,9 @@ html, body {
       width: 100%;
       height: 250px;
       margin-left: 60px; }
+      @media only screen and (max-width: 748px) {
+        html #wrapper #three .top, body #wrapper #three .top {
+          margin-left: 0px; } }
       html #wrapper #three .top #eggs, body #wrapper #three .top #eggs {
         height: 160px;
         width: 90px;
@@ -319,13 +322,13 @@ html, body {
           margin-left: 50px; } }
     @media only screen and (max-width: 748px) {
       html #wrapper #three, body #wrapper #three {
-        height: 144%;
+        height: 1040px;
         width: 100%;
         right: 0;
         top: 1300px; } }
     @media only screen and (max-width: 30em) {
       html #wrapper #three, body #wrapper #three {
-        height: 184%;
+        height: 1080px;
         width: 100%;
         left: 0;
         top: 960px; } }
