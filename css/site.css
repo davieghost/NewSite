@@ -238,12 +238,14 @@ html, body {
     @media only screen and (max-width: 748px) {
       html #wrapper #two, body #wrapper #two {
         height: 100%;
+        min-height: 500px;
         width: 100%;
         right: 0 !important;
         top: 700px; } }
     @media only screen and (max-width: 30em) {
       html #wrapper #two, body #wrapper #two {
         height: 100%;
+        min-height: 500px;
         width: 100%;
         right: 0 !important;
         top: 500px; } }

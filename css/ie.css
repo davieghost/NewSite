@@ -1,0 +1,8 @@
+.wrapper {
+	display: none;
+}
+.ie {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
