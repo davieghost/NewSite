@@ -239,14 +239,14 @@ html, body {
 					@include bp-medium {
 						height: 100%;
 						width: 100%;
-						right: 0;
+						right: 0!important;
 						top: 700px;
 
 					}
 					@include bp-small {
 						height: 100%;
 						width: 100%;
-						right: 0;
+						right: 0!important;
 						top: 500px;
 
 					}
@@ -366,13 +366,13 @@ html, body {
 					@include bp-medium {
 						height: 1040px;
 						width: 100%;
-						right: 0;
+						right: 0!important;
 						top: 1300px;
 					}
 					@include bp-small {
 						height: 1180px;
 						width: 100%;
-						left: 0;
+						right: 0!important;
 						top: 960px;
 					}
 			}

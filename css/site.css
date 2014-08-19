@@ -239,13 +239,13 @@ html, body {
       html #wrapper #two, body #wrapper #two {
         height: 100%;
         width: 100%;
-        right: 0;
+        right: 0 !important;
         top: 700px; } }
     @media only screen and (max-width: 30em) {
       html #wrapper #two, body #wrapper #two {
         height: 100%;
         width: 100%;
-        right: 0;
+        right: 0 !important;
         top: 500px; } }
   html #wrapper #three, body #wrapper #three {
     background: #e6e6f7;
@@ -336,13 +336,13 @@ html, body {
       html #wrapper #three, body #wrapper #three {
         height: 1040px;
         width: 100%;
-        right: 0;
+        right: 0 !important;
         top: 1300px; } }
     @media only screen and (max-width: 30em) {
       html #wrapper #three, body #wrapper #three {
         height: 1180px;
         width: 100%;
-        left: 0;
+        right: 0 !important;
         top: 960px; } }
   html #wrapper .title, body #wrapper .title {
     float: left;

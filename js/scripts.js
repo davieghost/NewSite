@@ -18,9 +18,11 @@ $(document).ready(function(){
 	    $moveOne.click(function(e) {
 	      if (e.target !==this)
 	        return;
+
 	        dir = !dir;
 	        r = dir? -625 : 0;
 	        $moveOne.stop().animate({right: r+'px'}, 400);
+
 	    });
 	   $moveTwo.click(function(f) {
 	     if (f.target !==this)
@@ -28,6 +30,7 @@ $(document).ready(function(){
 	        dir = !dir;
 	        r = dir? -625 : 0;
 	        $moveTwo.stop().animate({right: r+'px'}, 400);
+
 	    });
 	
 
@@ -47,9 +50,20 @@ $(document).ready(function(){
 
 	});
 */
+
+$(window).resize(function(){
+		if ($(window).width() <= 748){	
+			// do something here
+			//$moveOne.css('right','0');
+			//$moveTwo.css('right','0');
+			
+			
+		}	
+	});
+
 });
 
-$(window).load(function(){
+/*$(window).load(function(){
 	$('#wrapper').animate({
 		opacity:'1',
 		marginTop:'0'
@@ -58,6 +72,6 @@ $(window).load(function(){
 		specialEasing: 'easeInOutSine',
 		duration: 800
 		});
-});
+});*/
 
 
