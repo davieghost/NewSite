@@ -4,7 +4,8 @@ $(document).ready(function(){
         $moveTwo = $('#two');
   
     var   r = 0, 
-        dir = true;
+        dir = true,
+        fir = true;
 
   	
 
@@ -21,8 +22,8 @@ $(document).ready(function(){
 	     if (f.target !==this)
 	        return;
 	    console.log('clicked');
-	        dir = !dir;
-	        r = dir? -625 : 0;
+	        fir = !fir;
+	        r = fir? -625 : 0;
 	        $moveTwo.stop().animate({right: r+'px'}, 400);
 	        
 	    });
