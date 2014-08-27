@@ -1,0 +1,14 @@
+.wrapper, #one, #two, #three, textContainer, h2, h3, p, a, img, h1 {
+	display: none;
+}
+
+.ie {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 70px;
+	line-height: 80px;
+	text-align: center;
+	margin: 30px auto;
+}
+

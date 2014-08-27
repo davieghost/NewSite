@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="disctiption" content="The World Wide Website of Mr. David Anthony Johnson">
+	<meta name="keywords" content="CSS Grids, CSS Frameworks Resets, html, css, html5, css3, developer, front end developer, fed, jquery, javascript, ajax, xhtml, html4, html5 boilerplate, modernizr, php, sql, mysql, ruby on rails, rails, mobile development, web development, web design, mobile design, ui, ux, responsive, responsive web design, cross-browser, cross browser, dom, cms, wordpress, haml, sass, bootstrap, w3c, semantic, david, david johnson, david anthony johnson">
+	<link rel="shortcut icon" href="image/fav.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mr. David Anthony Johnson</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/site.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+</head>
+	<body>
+		<!--[if lt IE 9]>
+		<div class="ie">ERROR<br><span>UPGRADE YOUR BROWSER</span><br>THANK YOU.</div>
+		<![endif]-->
+		<div id="wrapper">
+			<section id="one">
+				<img src="image/milesNme.png" alt="miles and me">
+				<div class="textContainer">
+					<h1>Hello there, I am David.</h1>
+					<h2>I’m a web developer working in HTML5, CSS3, Sass &amp; jQuery, just to name a few.</h2>
+					<p>Experienced in gridsystems &amp; frameworks. I make websites with clean &amp; semantic code. I am a firm believer in pixel perfection &amp; best practice.</p>
+					<p><em>I’m the one with the beard.</em></p>
+					<ul>
+						<li><a href="http://github.com/davieghost" target="_blank"><span>github</span></a></li>
+						<li><a href="http://codepen.io/davieghost" target="_blank"><span>codepen</span></a></li>
+						<li><a href="asset/resume.pdf" target="_blank"><span>resume</span></a></li>
+						<li><a href="mailto:davidjohnson1297@gmail.com"><span>email</span></a></li>
+					</ul>
+				</div>
+			</section>
+			<div id="two">
+				<div class="disable">
+					<div class="enable1"></div>
+						<p id="projects" class="title">Projects</p>
+						<div class="content">
+							<ul>
+								<li><a href="http://mlogan.us" target="_blank"><span>MLogan.us</span></a></li>
+								<li><a href="http://sappietc.com" target="_blank"><span>SappiETC.com</span></a></li>
+								<li><a href="http://thetanneryrow.com" target="_blank"><span>theTanneryRow.com</span></a></li>
+								<li><a href="http://lindseydanceson.com" target="_blank"><span>LindseyDancesOn.com</span></a></li>
+								<li><a href="http://chicagomuscleteam.com" target="_blank"><span>ChicagoMuscleTeam.com</span></a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+			<div id="three">
+				<div class="disable">
+					<div class="enable2"></div>
+						<p id="about" class="title">About</p>
+						<div class="top"><img src="image/dancing.gif" id="eggs" class="hide" alt="this is YOUR dancey party"></div>
+						 <div class="content">
+						 	<p>I’m from just outside of Chicago. I spent some time as a tile mason, a bike messenger, a pedicab driver, and a graphic designer. After enlisting in the army, I got a degree in design. I’ve spent the last several years as a freelance web developer. I have a diverse background and I bring a unique perspective to  programming. I love thinking like a robot but speaking like a human.</p>
+							<br>
+							<p>I approach development in the way that I would approach building anything; I take my time, measure twice, and cut once. I believe in a method of working that is deliberate and meticulous. I try to do all of it while being a really <span id="easter">nice guy</span>.</p>
+						 </div>
+						 <div class="content2">
+						 	<ul>
+						 		<span>Skills</span>
+						 		<ul>
+						 			<li>Proficent</li>
+						 			<li>Hand-Coding HTML, CSS &amp; JavaScript</li>
+									<li>Adobe Creative Suite</li>
+									<li>Wireframing</li>
+									<li>OSX &amp; Win Platforms</li>
+									<li>X-Browser Testing</li>
+									<li>Wordpress</li>
+									<li>Design</li>
+									<li>Sass</li>
+
+<li>Haml</li>
+									<li>GIT</li>
+						 		</ul>
+						 		<ul>
+						 			<li>Working Knowledge</li>
+									<li>PHP</li>
+									<li>SQL</li>
+									<li>Rails</li>
+						 		</ul>
+						 		<ul>
+						 			<li>Learning</li>
+						 			<li>Objective C</li>
+						 		</ul>
+						 	</ul>
+						 </div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$('#easter').on('click', function(){
+				$('.hide').animate({
+					opacity:'1'
+				});
+		
+			});	
+	</script>	
+	</body>
+</html>
