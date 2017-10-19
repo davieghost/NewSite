@@ -1,6 +1,6 @@
 ### Old Personal Website
 
 
-*still online (for the time being)*
+*no longer online*
 
 jQuery dependancy, static HTML
