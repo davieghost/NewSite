@@ -1,6 +1,6 @@
-NewSite
-=======
+### Old Personal Website
 
-My new website
 
-just your average sponge
+*still online (for the time being)*
+
+jQuery dependancy, static HTML
